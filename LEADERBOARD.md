@@ -40,6 +40,18 @@ Maintained by the team behind [Glotier](https://glotier.com). We publish the ind
 
 ---
 
+## Gatekeepers by category
+
+The one domain cited in **every** answer of a category, plus Reddit's share, from a 3-category study (6 buying questions each, 26 July 2026). When a single source feeds all six answers, it is effectively the gate you have to get through to appear in that category at all.
+
+| Category | Reddit share | Gatekeeper (cited in all 6 answers) |
+|---|---|---|
+| AI SEO tools | 2 of 6 | onelittleweb.com |
+| Email marketing software | 4 of 6 | emailvendorselection.com |
+| Help desk software | 6 of 6 | reddit.com |
+
+In help desk software the gatekeeper *is* Reddit: every answer leaned on it. In the other two, a single roundup article (onelittleweb.com, emailvendorselection.com) fed every answer, which means one page decides who gets named. Getting onto that one page is the whole game in those categories.
+
 ## How this index is built, and its limits
 
 Every figure is re-derivable. Each buying question is asked as a live web query, the sources behind each answer are recorded, and domains are counted once per answer. The window and question count are stated for each category so a reader can reproduce it. Samples are deliberately small and named rather than large and vague; the value is that the raw counts are public.
