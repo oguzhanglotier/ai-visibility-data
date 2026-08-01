@@ -1,0 +1,8 @@
+metric,count,denominator,note
+cited_domains_measured,259,,Domains an assistant cited across our probes; latest check per domain
+served_parseable_robots_txt,244,259,The rest allow everything by default
+open_to_all_openai_agents,235,259,Allow every OpenAI agent training and search alike
+training_only,18,259,Block GPTBot but allow OAI-SearchBot: out of training still in ChatGPT search
+openai_search_blocked_by_name,5,259,adage.com builtin.com facebook.com instagram.com quora.com
+perplexitybot_blocked_by_name,7,259,adage.com builtin.com facebook.com instagram.com nymag.com quora.com uk.linkedin.com
+blanket_deny_all_crawlers,5,259,Only reddit.com relies on the wildcard alone; the other four also name AI agents

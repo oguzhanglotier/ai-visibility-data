@@ -1,0 +1,14 @@
+{
+  "measured_on": "2026-07-31",
+  "surface": "Google AI Overview and AI Mode",
+  "method": "Every source behind each captured Google AI answer was listed, then counted for repeated domains within a single answer.",
+  "answers_analyzed": 13,
+  "total_citations": 168,
+  "answers_with_no_repeated_domain": 13,
+  "ai_mode_sources_per_answer": { "mean": 14.75, "min": 6, "max": 24 },
+  "ai_overview_sources_per_answer": { "mean": 6.25, "min": 0, "max": 15 },
+  "finding": "No domain appeared twice in any single answer. AI answers gather one best page per sub-question rather than several pages from one strong domain, which is the opposite of a ranked results page.",
+  "related_patent": "US11663201B2",
+  "caveat": "Small sample, one question set, one window. We cannot tell from the outside whether one-per-domain is Google selecting one page per domain or deduplicating what it displays. For a vendor deciding where to invest the consequence is identical either way.",
+  "source": "https://glotier.com/guides/where-ai-answers-come-from"
+}

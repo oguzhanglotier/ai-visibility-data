@@ -1,0 +1,17 @@
+{
+  "measured_on": "2026-07-19",
+  "method": "The same buying questions were put to ChatGPT, Gemini and Perplexity as live web queries. Every product named by each assistant was recorded.",
+  "questions_asked": 40,
+  "questions_all_three_answered": 39,
+  "distinct_products_named": 437,
+  "named_by_all_three_pct": 30,
+  "named_by_exactly_one_pct": 47,
+  "single_assistant_coverage_pct": {
+    "chatgpt": 58,
+    "gemini": 60,
+    "perplexity": 65
+  },
+  "chatgpt_gemini_agreement_on_identical_sources_pct": 64,
+  "caveat": "One category window. 39 usable of 40 asked, because one question lost an assistant and a claim about all three agreeing needs all three to have answered. The agreement figure hands both models the same search results, so it isolates the model from the sources.",
+  "source": "https://glotier.com/guides/how-assistants-disagree"
+}

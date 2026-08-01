@@ -1,0 +1,18 @@
+operator,user_agent,purpose,publishes_ip_range_file
+OpenAI,GPTBot,Training data collection,yes
+OpenAI,OAI-SearchBot,Selects what appears in ChatGPT search answers,yes
+OpenAI,ChatGPT-User,Fetches a page when a user asks about it,yes
+Anthropic,ClaudeBot,Training data collection,yes
+Anthropic,Claude-User,User-triggered fetch,yes
+Anthropic,Claude-SearchBot,Search retrieval,yes
+Perplexity,PerplexityBot,Indexing,disputed
+Perplexity,Perplexity-User,User-triggered fetch,disputed
+Google,Googlebot,Classic index that also feeds AI Overviews,partial
+Google,Google-Extended,Opt-out token for Gemini and Vertex training,partial
+Microsoft,bingbot,Index that feeds Copilot,yes
+Apple,Applebot,Search and Siri,yes
+Apple,Applebot-Extended,AI training opt-out token,yes
+Amazon,Amazonbot,Assistant and search data,no
+Meta,meta-externalagent,Assistant and training data,no
+ByteDance,Bytespider,Assistant and training data,no
+Common Crawl,CCBot,Open crawl many models train on,no
