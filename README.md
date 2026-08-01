@@ -4,6 +4,8 @@ Open datasets on **which sources AI assistants cite**, **which AI crawlers can r
 
 Maintained by the team behind [Glotier](https://glotier.com), an AI-visibility measurement tool. The numbers here are the same measurements Glotier runs on itself and its own category, published openly. Where a figure flatters no one, it is here anyway.
 
+**See [The AI-Visibility Index](LEADERBOARD.md)** for the human-readable ranking of which sources AI cites, by category.
+
 ## Why this exists
 
 When someone asks ChatGPT, Gemini or Perplexity for the best tool in a category, the answer is assembled from a small set of sources the model retrieved and trusted. Almost nobody has published raw counts of **which** sources those are. This repository does, for a handful of software categories, so that anyone optimizing for AICitation can work from evidence instead of folklore.
