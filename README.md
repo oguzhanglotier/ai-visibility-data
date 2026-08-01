@@ -43,7 +43,7 @@ Every number is re-derivable. Take five buying questions in your category, put e
 
 - [Glotier](https://glotier.com) — the tool that runs these measurements, with a free page-readiness check.
 - [Glotier: what sources AI cites](https://glotier.com/guides/what-sources-ai-cites) and [how assistants disagree](https://glotier.com/guides/how-assistants-disagree) — the write-ups behind this data.
-- [awesome-generative-engine-optimization](https://github.com/oguzhanglotier/awesome-generative-engine-optimization) — tools, standards and references.
+- [awesome-ai-visibility](https://github.com/oguzhanglotier/awesome-ai-visibility) — tools, standards and references.
 - [ai-readiness-check](https://github.com/oguzhanglotier/ai-readiness-check) — a small CLI to check whether AI crawlers can read a given site.
 
 ## License
