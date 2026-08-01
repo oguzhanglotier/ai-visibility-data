@@ -15,6 +15,7 @@ Two words that get conflated and should not be: **allowed** (a permission you wr
 | File | What it is | Measured | Sample |
 |---|---|---|---|
 | [`data/which-sources-ai-cites.csv`](data/which-sources-ai-cites.csv) | Domains cited across 21 buying questions in the AI-SEO/visibility category, counted per answer | 20–26 Jul 2026 | 21 questions, 93 distinct domains |
+| [`data/sources-by-type.csv`](data/sources-by-type.csv) | Community vs review-directory citations across 3 software categories | 26 Jul 2026 | 18 answers, 131 citations |
 | [`data/ai-crawlers-reference.csv`](data/ai-crawlers-reference.csv) | The AI crawler user-agents, their job, and whether the operator publishes a verifiable IP-range file | 31 Jul 2026 | 13 agents, 6 operators publishing ranges |
 | [`data/ai-crawler-access.csv`](data/ai-crawler-access.csv) | Of the domains assistants actually cite, how many let the AI crawlers in | 31 Jul 2026 | 259 cited domains |
 | [`data/model-disagreement.json`](data/model-disagreement.json) | How often ChatGPT, Gemini and Perplexity name the same products, including on identical sources | 19 Jul 2026 | 39 questions, 437 products |
@@ -22,10 +23,11 @@ Two words that get conflated and should not be: **allowed** (a permission you wr
 
 ## Headline findings
 
-- **Community beats directories, by a lot.** Across the measured answers, community forums (Reddit, Quora, Stack Overflow, Hacker News, YouTube, Medium) were cited about **21 times** more often than the classic software review directories companies pay for. Reddit alone was a source in **12 of 21** answers in one category; the review directories were **0.8%** of citations.
+- **Community beats directories, by a lot.** In a study across 3 software categories (18 answers, 131 citations counted per answer, 26 Jul 2026), community forums (Reddit, Quora, Hacker News, Stack Overflow, YouTube, Medium) were cited **21 times** more often than the classic review directories, which were **0.8%** of all citations. See [`data/sources-by-type.csv`](data/sources-by-type.csv).
+- **Reddit is a gatekeeper.** In a separate study of 21 buying questions in the AI-visibility category (20–26 Jul 2026), Reddit was a source in **12** of them, cited more often than any vendor. See [`data/which-sources-ai-cites.csv`](data/which-sources-ai-cites.csv).
 - **One slot per domain.** Across 13 Google AI answers and 168 citations, **not one domain appeared twice**. AI answers are not a ranked page where a strong domain takes several spots; they gather one best page per sub-question.
 - **The assistants disagree more than you would think.** Only **30%** of named products were named by all three assistants; **47%** were named by exactly one. Handed identical sources, ChatGPT and Gemini still agreed only **64%** of the time, so a share of whether you get named is the model, not the source.
-- **A third of AI crawler traffic cannot be verified.** Six operators publish an IP-range file you can check a request against; Meta and Amazon publish none, and Google publishes for Googlebot but nothing that isolates `Google-Extended`.
+- **Not every crawler can be verified.** Some operators publish an IP-range file you can check a request against; Meta and Amazon publish none, and Google publishes for Googlebot but nothing that isolates `Google-Extended`, so a large share of AI-crawler requests cannot be matched to a published range. See [`data/ai-crawlers-reference.csv`](data/ai-crawlers-reference.csv).
 
 ## Method, in short
 
